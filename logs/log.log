@@ -2059,3 +2059,211 @@
 2017-12-09 22:37:03 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2017-12-09 22:37:03 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2017-12-09 22:37:03 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/anshul.chauhan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-09-17 22:24:34 INFO  BaseTest:20 - Starting Test Case : doLogin
+2018-09-17 22:24:34 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-09-17 22:24:34 INFO  URL:17 - URI End Point : http://localhost:8080/rest/auth/1/session
+2018-09-17 22:24:34 INFO  RESTCalls:27 - Inside POSTRequest call
+2018-09-17 22:24:36 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://localhost:8080
+2018-09-17 22:24:36 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2018-09-17 22:24:36 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2018-09-17 22:24:36 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-17 22:24:36 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2018-09-17 22:24:36 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2018-09-17 22:24:36 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2018-09-17 22:24:36 DEBUG DefaultClientConnection:274 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2018-09-17 22:24:36 DEBUG wire:73 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2018-09-17 22:24:36 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2018-09-17 22:24:36 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2018-09-17 22:24:36 DEBUG wire:73 -  >> "Content-Length: 61[\r][\n]"
+2018-09-17 22:24:36 DEBUG wire:73 -  >> "Host: localhost:8080[\r][\n]"
+2018-09-17 22:24:36 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-09-17 22:24:36 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+2018-09-17 22:24:36 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-17 22:24:36 DEBUG wire:73 -  >> "[\r][\n]"
+2018-09-17 22:24:36 DEBUG headers:278 - >> POST /rest/auth/1/session HTTP/1.1
+2018-09-17 22:24:36 DEBUG headers:281 - >> Accept: */*
+2018-09-17 22:24:36 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2018-09-17 22:24:36 DEBUG headers:281 - >> Content-Length: 61
+2018-09-17 22:24:36 DEBUG headers:281 - >> Host: localhost:8080
+2018-09-17 22:24:36 DEBUG headers:281 - >> Connection: Keep-Alive
+2018-09-17 22:24:36 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+2018-09-17 22:24:36 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2018-09-17 22:24:36 DEBUG wire:73 -  >> "{  [\r][\n]"
+2018-09-17 22:24:36 DEBUG wire:73 -  >> "   "username":"anshulc55",[\r][\n]"
+2018-09-17 22:24:36 DEBUG wire:73 -  >> "   "password":"JIRA12345"[\r][\n]"
+2018-09-17 22:24:36 DEBUG wire:87 -  >> "}"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "HTTP/1.1 403 No valid crumb was included in the request[\r][\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "Date: Tue, 18 Sep 2018 03:24:36 GMT[\r][\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "Content-Length: 400[\r][\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "[\r][\n]"
+2018-09-17 22:24:37 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 403 No valid crumb was included in the request
+2018-09-17 22:24:37 DEBUG headers:262 - << HTTP/1.1 403 No valid crumb was included in the request
+2018-09-17 22:24:37 DEBUG headers:265 - << Date: Tue, 18 Sep 2018 03:24:36 GMT
+2018-09-17 22:24:37 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2018-09-17 22:24:37 DEBUG headers:265 - << Cache-Control: must-revalidate,no-cache,no-store
+2018-09-17 22:24:37 DEBUG headers:265 - << Content-Type: text/html;charset=iso-8859-1
+2018-09-17 22:24:37 DEBUG headers:265 - << Content-Length: 400
+2018-09-17 22:24:37 DEBUG headers:265 - << Server: Jetty(9.4.z-SNAPSHOT)
+2018-09-17 22:24:37 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2018-09-17 22:24:37 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/html;charset=iso-8859-1
+2018-09-17 22:24:37 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2018-09-17 22:24:37 DEBUG RESTCalls:31 - io.restassured.internal.RequestSpecificationImpl@5cdd09b1
+2018-09-17 22:24:37 DEBUG wire:73 -  << "<html>[\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "<head>[\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>[\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "<title>Error 403 No valid crumb was included in the request</title>[\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "</head>[\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "<body><h2>HTTP ERROR 403</h2>[\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "<p>Problem accessing /rest/auth/1/session. Reason:[\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "<pre>    No valid crumb was included in the request</pre></p><hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>[\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "[\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "</body>[\n]"
+2018-09-17 22:24:37 DEBUG wire:73 -  << "</html>[\n]"
+2018-09-17 22:24:37 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@58fb7731
+2018-09-17 22:24:37 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2018-09-17 22:24:37 INFO  BaseTest:25 - <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 403 No valid crumb was included in the request</title>
+</head>
+<body><h2>HTTP ERROR 403</h2>
+<p>Problem accessing /rest/auth/1/session. Reason:
+<pre>    No valid crumb was included in the request</pre></p><hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>
+
+</body>
+</html>
+
+2018-09-17 22:24:37 INFO  TestUtils:15 - Converting Response to String
+2018-09-17 22:24:37 DEBUG TestUtils:17 - <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 403 No valid crumb was included in the request</title>
+</head>
+<body><h2>HTTP ERROR 403</h2>
+<p>Problem accessing /rest/auth/1/session. Reason:
+<pre>    No valid crumb was included in the request</pre></p><hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>
+
+</body>
+</html>
+
+2018-09-17 22:24:37 INFO  TestUtils:22 - Parsing String Response to JSON
+2018-09-17 22:24:37 DEBUG TestUtils:24 - io.restassured.path.json.JsonPath@395b56bb
+2018-09-17 22:24:38 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:59225<->127.0.0.1:8080 closed
+2018-09-17 22:24:38 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-09-17 22:24:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-09-17 22:24:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-09-17 22:24:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-09-17 22:24:38 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Home/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-09-17 22:24:38 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-09-17 22:24:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-09-17 22:24:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-09-17 22:24:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-09-17 22:24:38 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Home/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-09-18 21:02:43 INFO  BaseTest:20 - Starting Test Case : doLogin
+2018-09-18 21:02:43 INFO  PayloadGenerator:14 - Inside PayloadConverter function
+2018-09-18 21:02:43 INFO  URL:17 - URI End Point : http://localhost:8080/rest/auth/1/session
+2018-09-18 21:02:43 INFO  RESTCalls:27 - Inside POSTRequest call
+2018-09-18 21:02:44 DEBUG BasicClientConnectionManager:161 - Get connection for route {}->http://localhost:8080
+2018-09-18 21:02:44 DEBUG DefaultClientConnectionOperator:177 - Connecting to localhost:8080
+2018-09-18 21:02:44 DEBUG RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2018-09-18 21:02:44 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-18 21:02:44 DEBUG RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2018-09-18 21:02:44 DEBUG RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2018-09-18 21:02:44 DEBUG DefaultHttpClient:682 - Attempt 1 to execute request
+2018-09-18 21:02:44 DEBUG DefaultClientConnection:274 - Sending request: POST /rest/auth/1/session HTTP/1.1
+2018-09-18 21:02:44 DEBUG wire:73 -  >> "POST /rest/auth/1/session HTTP/1.1[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  >> "Accept: */*[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  >> "Content-Length: 61[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  >> "Host: localhost:8080[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  >> "[\r][\n]"
+2018-09-18 21:02:44 DEBUG headers:278 - >> POST /rest/auth/1/session HTTP/1.1
+2018-09-18 21:02:44 DEBUG headers:281 - >> Accept: */*
+2018-09-18 21:02:44 DEBUG headers:281 - >> Content-Type: application/json; charset=UTF-8
+2018-09-18 21:02:44 DEBUG headers:281 - >> Content-Length: 61
+2018-09-18 21:02:44 DEBUG headers:281 - >> Host: localhost:8080
+2018-09-18 21:02:44 DEBUG headers:281 - >> Connection: Keep-Alive
+2018-09-18 21:02:44 DEBUG headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+2018-09-18 21:02:44 DEBUG headers:281 - >> Accept-Encoding: gzip,deflate
+2018-09-18 21:02:44 DEBUG wire:73 -  >> "{  [\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  >> "   "username":"anshulc55",[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  >> "   "password":"JIRA12345"[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:87 -  >> "}"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "HTTP/1.1 403 No valid crumb was included in the request[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "Date: Wed, 19 Sep 2018 02:02:44 GMT[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "Cache-Control: must-revalidate,no-cache,no-store[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "Content-Type: text/html;charset=iso-8859-1[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "Content-Length: 400[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "[\r][\n]"
+2018-09-18 21:02:44 DEBUG DefaultClientConnection:259 - Receiving response: HTTP/1.1 403 No valid crumb was included in the request
+2018-09-18 21:02:44 DEBUG headers:262 - << HTTP/1.1 403 No valid crumb was included in the request
+2018-09-18 21:02:44 DEBUG headers:265 - << Date: Wed, 19 Sep 2018 02:02:44 GMT
+2018-09-18 21:02:44 DEBUG headers:265 - << X-Content-Type-Options: nosniff
+2018-09-18 21:02:44 DEBUG headers:265 - << Cache-Control: must-revalidate,no-cache,no-store
+2018-09-18 21:02:44 DEBUG headers:265 - << Content-Type: text/html;charset=iso-8859-1
+2018-09-18 21:02:44 DEBUG headers:265 - << Content-Length: 400
+2018-09-18 21:02:44 DEBUG headers:265 - << Server: Jetty(9.4.z-SNAPSHOT)
+2018-09-18 21:02:44 DEBUG DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2018-09-18 21:02:44 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:544 - Parsing response as: text/html;charset=iso-8859-1
+2018-09-18 21:02:44 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2018-09-18 21:02:44 DEBUG RESTCalls:31 - io.restassured.internal.RequestSpecificationImpl@5cdd09b1
+2018-09-18 21:02:44 DEBUG wire:73 -  << "<html>[\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "<head>[\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>[\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "<title>Error 403 No valid crumb was included in the request</title>[\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "</head>[\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "<body><h2>HTTP ERROR 403</h2>[\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "<p>Problem accessing /rest/auth/1/session. Reason:[\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "<pre>    No valid crumb was included in the request</pre></p><hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>[\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "[\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "</body>[\n]"
+2018-09-18 21:02:44 DEBUG wire:73 -  << "</html>[\n]"
+2018-09-18 21:02:44 DEBUG BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@58fb7731
+2018-09-18 21:02:44 DEBUG BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2018-09-18 21:02:44 INFO  BaseTest:25 - <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 403 No valid crumb was included in the request</title>
+</head>
+<body><h2>HTTP ERROR 403</h2>
+<p>Problem accessing /rest/auth/1/session. Reason:
+<pre>    No valid crumb was included in the request</pre></p><hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>
+
+</body>
+</html>
+
+2018-09-18 21:02:44 INFO  TestUtils:15 - Converting Response to String
+2018-09-18 21:02:44 DEBUG TestUtils:17 - <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<title>Error 403 No valid crumb was included in the request</title>
+</head>
+<body><h2>HTTP ERROR 403</h2>
+<p>Problem accessing /rest/auth/1/session. Reason:
+<pre>    No valid crumb was included in the request</pre></p><hr><a href="http://eclipse.org/jetty">Powered by Jetty:// 9.4.z-SNAPSHOT</a><hr/>
+
+</body>
+</html>
+
+2018-09-18 21:02:44 INFO  TestUtils:22 - Parsing String Response to JSON
+2018-09-18 21:02:44 DEBUG TestUtils:24 - io.restassured.path.json.JsonPath@395b56bb
+2018-09-18 21:02:45 DEBUG DefaultClientConnection:180 - Connection 0.0.0.0:61892<->127.0.0.1:8080 closed
+2018-09-18 21:02:45 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-09-18 21:02:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-09-18 21:02:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-09-18 21:02:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-09-18 21:02:45 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Home/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2018-09-18 21:02:45 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2018-09-18 21:02:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2018-09-18 21:02:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2018-09-18 21:02:45 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2018-09-18 21:02:45 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Home/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
